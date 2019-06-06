@@ -1,15 +1,28 @@
-import cookies from 'js-cookie'
+import storage from 'good-storage'
+const TOKEN_KEY = 'admin_token_key'
+const USER_KEY = 'admin_user_key'
 
-const tokenPrefix = 'admin_token_prefix'
-
-export function getToken () {
-  return cookies.get(tokenPrefix)
-}
-
+// 设置token
 export function setToken (token) {
-  return cookies.set(tokenPrefix, token)
+  storage.set(TOKEN_KEY, token)
 }
-
+// 获取token
+export function getToken () {
+  return storage.get(TOKEN_KEY, '')
+}
+// 移除token
 export function removeToken () {
-  return cookies.remove(tokenPrefix)
+  storage.remove(TOKEN_KEY)
+}
+// 设置用户信息
+export function setUserCacheInfo (userInfo) {
+  storage.set(USER_KEY, userInfo)
+}
+// 获取用户信息
+export function getUserCacheInfo () {
+  return storage.get(USER_KEY, null)
+}
+// 移除用户信息
+export function removeUserCacheInfo () {
+  storage.remove(USER_KEY)
 }

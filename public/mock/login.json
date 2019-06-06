@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "message": "登陆成功",
+  "data": {
+    "token": {
+      "admin": "e840b793-bb7b-474c-a7c8-fba84b714c81",
+      "why": "1d3d019d-fcca-45f6-a738-944ec23bbd05"
+    }
+  }
+}

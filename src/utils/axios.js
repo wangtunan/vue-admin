@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { Message } from 'element-ui'
-import { getToken } from 'utils/auth.js'
-import { ERR_OK } from 'assets/js/config.js'
+import { getToken } from './auth.js'
+import { ERR_OK } from 'api/config.js'
 const service = axios.create({
   baseURL: '',
   timeout: 10000
@@ -41,7 +41,6 @@ service.interceptors.response.use(
     return Promise.resolve(data)
   },
   error => {
-    console.log(error)
     return Promise.reject(error)
   }
 )

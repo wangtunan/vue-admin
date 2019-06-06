@@ -1,0 +1,8 @@
+{
+  "code": 0,
+  "data": [
+    { "name": "汪汪汪", "username": "why", "roles": ["why"], "avatar": "https://i.bmp.ovh/imgs/2019/06/6f0370451271031c.jpg", "token": "1d3d019d-fcca-45f6-a738-944ec23bbd05" },
+    { "name": "超级管理员", "username": "admin", "roles": ["admin"], "avatar": "https://i.bmp.ovh/imgs/2019/06/1e4b5ccb8e7c33b7.jpg", "token": "e840b793-bb7b-474c-a7c8-fba84b714c81" }
+  ],
+  "message": "获取用户信息成功"
+}
