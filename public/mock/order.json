@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "message": "获取成功",
+  "data": [
+    { "id": 1,"code": "CDEF1000", "name": "AAA","phone": "13886867272","address": "广东省广州市","price": 36,"number": 2,"status": 0,"statusText": "待付款","state": 0 },
+    { "id": 2,"code": "CDEF1001", "name": "BBB","phone": "13886867272","address": "广东省深圳市","price": 46,"number": 2,"status": 1,"statusText": "待发货","state": 0  },
+    { "id": 3,"code": "CDEF1002", "name": "CCC","phone": "13886867272","address": "广东省佛山市","price": 36,"number": 2,"status": 2,"statusText": "已发货","state": 0  },
+    { "id": 4,"code": "CDEF1003", "name": "DDD","phone": "13886867272","address": "广东省东莞市","price": 36,"number": 2,"status": 3,"statusText": "已签收","state": 0  },
+    { "id": 5,"code": "CDEF1004", "name": "EEE","phone": "13886867272","address": "广东省惠州市","price": 45,"number": 2,"status": 4,"statusText": "已退款","state": 0  },
+    { "id": 6,"code": "CDEF1005", "name": "FFF","phone": "13886867272","address": "广东省珠海市","price": 36,"number": 2,"status": 0,"statusText": "待付款","state": 0  },
+    { "id": 7,"code": "CDEF1006", "name": "AAA","phone": "13886867272","address": "广东省深圳市","price": 36,"number": 2,"status": 1,"statusText": "待发货","state": 1  },
+    { "id": 8,"code": "CDEF1007", "name": "BBB","phone": "13886867272","address": "广东省广州市","price": 32,"number": 2,"status": 2,"statusText": "已发货","state": 0  },
+    { "id": 9,"code": "CDEF1008", "name": "CCC","phone": "13886867272","address": "广东省深圳市","price": 36,"number": 2,"status": 3,"statusText": "已签收","state": 0  },
+    { "id": 10,"code": "CDEF1009", "name": "DDD","phone": "13886867272","address": "广东省广州市","price": 44,"number": 2,"status": 4,"statusText": "已退款","state": 0  },
+    { "id": 11,"code": "CDEF1010", "name": "EEE","phone": "13886867272","address": "广东省深圳市","price": 2,"number": 2,"status": 5,"statusText": "已退回","state": 0  },
+    { "id": 12,"code": "CDEF1011", "name": "AAA","phone": "13886867272","address": "广东省深圳市","price": 36,"number": 2,"status": 1,"statusText": "待发货","state": 1  },
+    { "id": 13,"code": "CDEF1012", "name": "BBB","phone": "13886867272","address": "广东省广州市","price": 32,"number": 2,"status": 2,"statusText": "已发货","state": 0  },
+    { "id": 14,"code": "CDEF1013", "name": "CCC","phone": "13886867272","address": "广东省深圳市","price": 36,"number": 2,"status": 3,"statusText": "已签收","state": 0  },
+    { "id": 15,"code": "CDEF1014", "name": "DDD","phone": "13886867272","address": "广东省广州市","price": 44,"number": 2,"status": 4,"statusText": "已退款","state": 1  },
+    { "id": 16,"code": "CDEF1015", "name": "EEE","phone": "13886867272","address": "广东省深圳市","price": 2,"number": 2,"status": 5,"statusText": "已退回","state": 1  }
+  ]
+}

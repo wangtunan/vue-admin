@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar-item-container">
     <template v-if="hasOneShowingChild(route.children)">
-      <router-link :to="resolvePath(onlyOneChild.path)" tag="div">
+      <router-link :to="resolvePath(onlyOneChild.path)" tag="div" class="sub-item-box">
         <el-menu-item :index="resolvePath(onlyOneChild.path)">
           <span slot="title">{{route.meta.title}}</span>
         </el-menu-item>
@@ -62,3 +62,8 @@ export default {
   }
 }
 </script>
+<style lang="stylus" scoped>
+  .sub-item-box
+    .el-menu-item
+      padding-left: 48px!important
+</style>

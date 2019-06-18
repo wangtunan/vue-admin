@@ -39,12 +39,17 @@ export const asyncRoutes = [
     name: 'Order',
     component: Layout,
     redirect: '/order/index',
-    meta: { title: '订单管理', icon: 'collection', roles: ['admin', 'why'] },
+    meta: { title: '订单管理', icon: 'box', roles: ['admin', 'why'] },
     children: [
       {
         path: 'index',
         component: () => import('components/order/order.vue'),
         meta: { title: '订单管理', roles: ['admin', 'why'] }
+      },
+      {
+        path: 'list',
+        component: () => import('components/order/list.vue'),
+        meta: { title: '我的订单', roles: ['admin', 'why'] }
       }
     ]
   },
@@ -53,7 +58,7 @@ export const asyncRoutes = [
     name: 'Ticket',
     component: Layout,
     redirect: '/ticket/index',
-    meta: { title: '发票管理', icon: 'collection', roles: ['admin'] },
+    meta: { title: '发票管理', icon: 's-ticket', roles: ['admin'] },
     children: [
       {
         path: 'index',
@@ -67,7 +72,7 @@ export const asyncRoutes = [
     name: 'Report',
     component: Layout,
     redirect: '/report/index',
-    meta: { title: '报表管理', icon: 'collection', roles: ['admin'] },
+    meta: { title: '报表管理', icon: 's-data', roles: ['admin'] },
     children: [
       {
         path: 'index',

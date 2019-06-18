@@ -19,9 +19,6 @@
 import SidebarItem from './sidebar-item.vue'
 import { mapGetters } from 'vuex'
 export default {
-  created () {
-    console.log(this.routes)
-  },
   computed: {
     enableRoute () {
       return this.routes.filter(item => !item.hidden)
@@ -57,5 +54,11 @@ export default {
         ~.is-horizontal
           display: none
       .el-menu
+        cursor: pointer
         border-right: none
+        .el-menu-item
+          cursor: pointer
+        >>> .el-submenu__title
+          & > i
+            color: #BFCBD9!important
 </style>
